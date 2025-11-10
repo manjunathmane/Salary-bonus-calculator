@@ -1,5 +1,5 @@
 import sys
-if len(sys.argv) ==3:
+if len(sys.argv) ==2:
   salary = sys.argv[0]
   bonus = sys.argv[1]
   total_salary = salary + bonus
