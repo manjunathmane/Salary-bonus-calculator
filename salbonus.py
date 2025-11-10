@@ -6,7 +6,7 @@ if len(sys.argv) ==2:
   print("User provided input values:")
 
 else:
-  salary = float(input("Enter the employee's salary: "))
+  salary = 50000
   bonus = 0.10 * salary
   total_salary = salary + bonus
   print("Bonus Amount: ₹", bonus)
